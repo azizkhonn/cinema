@@ -1,0 +1,93 @@
+.App {
+    text-align: center;
+}
+
+.show-cards {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.show-card {
+    background-color: red;
+    margin: 10px;
+    padding: 10px;
+    border: 1px solid red;
+    width: 200px;
+    cursor: pointer;
+    border-radius: 5px;
+    color: #ffffff;
+    box-shadow: 6px 6px 6px 6px #7f0606, -6px -6px 6px 6px #7f0606;
+}
+
+.show-card img {
+    width: 100%;
+}
+
+.show-details {
+    margin-top: 20px;
+}
+
+button {
+    margin: 5px;
+    padding: 10px;
+    cursor: pointer;
+}
+
+button.active {
+    background-color: red;
+    
+}
+
+button:disabled {
+    cursor: not-allowed;
+    opacity: 0.5;
+}
+
+.pagination {
+    margin-top: 20px;
+}
+
+.search-container{
+    margin-top: -72px;
+}
+
+input[type="text"] {
+    border-radius: 3px;
+    border: 2px solid rgb(255, 30, 30);
+    outline: none;
+    margin: 10px;
+    padding: 10px;
+    margin-bottom: 20px;
+    width: 80%;
+    max-width: 400px;
+    margin-top: -120px;
+}
+
+.main-container {
+    display: flex;
+}
+
+.content {
+    flex: 1;
+    padding: 20px;
+}
+
+.show-cards {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+#itemsPerPage {
+    margin: 20px;
+    padding: 10px;
+    border: #ff0000 2px solid;
+    border-radius: 3px;
+    outline: none;
+    color: red;
+}
+
+.labelText{
+    color: #ffffff;
+}

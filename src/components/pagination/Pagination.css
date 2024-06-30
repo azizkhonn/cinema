@@ -1,0 +1,19 @@
+#nextBtn {
+    border: none;
+    border-radius: 3px;
+    color: red;
+}
+
+
+#changeBtn {
+    border: none;
+    border-radius: 3px;
+    color: red;
+}
+
+#changeBtnNum {
+    border: none;
+    border-radius: 3px;
+    color: red;
+    color: #000;
+}
